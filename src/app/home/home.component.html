@@ -1,0 +1,47 @@
+<div class="container mt-5">
+    <div class="card shadow border-0">
+      <div class="card-body">
+        
+        <h1 class="text-center text-primary mb-4">Convert YouTube Video to MP3</h1>
+        <form (ngSubmit)="convertToMp3()">
+          <div class="form-group">
+            <label for="youtubeUrl" class="font-weight-bold">YouTube URL</label>
+            <input
+              type="text"
+              id="youtubeUrl"
+              class="form-control"
+              [(ngModel)]="youtubeUrl"
+              name="youtubeUrl"
+              required
+              placeholder="Enter YouTube URL"
+            />
+          </div>
+          <div class="d-flex justify-content-center mt-4">
+            <button
+              type="submit"
+              class="btn btn-primary btn-lg"
+              [disabled]="!youtubeUrl"
+            >
+              Convert to MP3
+            </button>
+          </div>
+        </form>
+        <div *ngIf="isLoading" class="text-center mt-3">
+          <div class="spinner-border text-primary" role="status">
+            <span class="sr-only">Loading...</span>
+          </div>
+          <p class="mt-2">Processing your request...</p>
+        </div>
+        <div *ngIf="downloadLink" class="text-center mt-3">
+          <a 
+            [href]="downloadLink" 
+            download="converted.mp3" 
+            class="btn btn-success btn-lg">
+            Download MP3
+          </a>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+  
