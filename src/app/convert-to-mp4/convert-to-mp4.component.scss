@@ -1,0 +1,19 @@
+.spinner-border {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+  }
+  
+  .text-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  p.mt-2 {
+    margin-top: 10px;
+    font-weight: 500;
+  }
+  

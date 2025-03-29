@@ -15,11 +15,11 @@
           }
         }
       },
-      "FFMpegCore/5.1.0": {
+      "FFMpegCore/5.2.0": {
         "type": "package",
         "dependencies": {
-          "Instances": "3.0.0",
-          "System.Text.Json": "7.0.2"
+          "Instances": "3.0.1",
+          "System.Text.Json": "9.0.2"
         },
         "compile": {
           "lib/netstandard2.0/FFMpegCore.dll": {}
@@ -28,7 +28,7 @@
           "lib/netstandard2.0/FFMpegCore.dll": {}
         }
       },
-      "Instances/3.0.0": {
+      "Instances/3.0.1": {
         "type": "package",
         "compile": {
           "lib/netstandard2.0/Instances.dll": {}
@@ -44,7 +44,7 @@
           }
         }
       },
-      "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
+      "Microsoft.Bcl.AsyncInterfaces/9.0.2": {
         "type": "package",
         "compile": {
           "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll": {
@@ -156,7 +156,7 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
-      "System.IO.Pipelines/9.0.0": {
+      "System.IO.Pipelines/9.0.2": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.1",
@@ -202,7 +202,7 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "System.Text.Encodings.Web/9.0.0": {
+      "System.Text.Encodings.Web/9.0.2": {
         "type": "package",
         "dependencies": {
           "System.Buffers": "4.5.1",
@@ -223,15 +223,15 @@
           "buildTransitive/netcoreapp2.0/System.Text.Encodings.Web.targets": {}
         }
       },
-      "System.Text.Json/9.0.0": {
+      "System.Text.Json/9.0.2": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.2",
           "System.Buffers": "4.5.1",
-          "System.IO.Pipelines": "9.0.0",
+          "System.IO.Pipelines": "9.0.2",
           "System.Memory": "4.5.5",
           "System.Runtime.CompilerServices.Unsafe": "6.0.0",
-          "System.Text.Encodings.Web": "9.0.0",
+          "System.Text.Encodings.Web": "9.0.2",
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
@@ -257,12 +257,12 @@
           "lib/netcoreapp2.1/_._": {}
         }
       },
-      "YoutubeExplode/6.5.1": {
+      "YoutubeExplode/6.5.4": {
         "type": "package",
         "dependencies": {
           "AngleSharp": "1.2.0",
-          "Microsoft.Bcl.AsyncInterfaces": "9.0.0",
-          "System.Text.Json": "9.0.0",
+          "Microsoft.Bcl.AsyncInterfaces": "9.0.1",
+          "System.Text.Json": "9.0.1",
           "System.Threading.Tasks.Extensions": "4.6.0"
         },
         "compile": {
@@ -304,37 +304,38 @@
         "logo.png"
       ]
     },
-    "FFMpegCore/5.1.0": {
-      "sha512": "cCzfCElrq9IziByiho3oeK/T2hDfM0jjMQmo22cLoAt7bptNNhEiRhF9X0lKwLBoK9vjZKn06+gaUfbfmS9m3Q==",
+    "FFMpegCore/5.2.0": {
+      "sha512": "VpTM8mNo41Upj2zrlroEroQp7TGaXa+jDlGbekvy7Vcvz7bQTesUhf0LWvvwgakcCo9j9OlhP1bzkaZpEyn8WA==",
       "type": "package",
-      "path": "ffmpegcore/5.1.0",
+      "path": "ffmpegcore/5.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "README.md",
-        "ffmpegcore.5.1.0.nupkg.sha512",
+        "ffmpegcore.5.2.0.nupkg.sha512",
         "ffmpegcore.nuspec",
         "lib/netstandard2.0/FFMpegCore.dll"
       ]
     },
-    "Instances/3.0.0": {
-      "sha512": "wlZ0V+S7X7kMKbjC7EZJf5A1FNlldQrS0tKMNXP1Ued/6XCo6t5kpFDS3X72cd+SGaX+q+FOlWO7r18GlxcKAQ==",
+    "Instances/3.0.1": {
+      "sha512": "HSMGZF4g/VcmVyoWH2fRkgZMAW50FcsKvDttwH1jVS2oIz7V9xw9e/b2KhbCO4RSJKJEgTuPKQb6sQvqcDOl2A==",
       "type": "package",
-      "path": "instances/3.0.0",
+      "path": "instances/3.0.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "README.md",
         "content/README.md",
         "contentFiles/any/netstandard2.0/README.md",
-        "instances.3.0.0.nupkg.sha512",
+        "instances.3.0.1.nupkg.sha512",
         "instances.nuspec",
         "lib/netstandard2.0/Instances.dll"
       ]
     },
-    "Microsoft.Bcl.AsyncInterfaces/9.0.0": {
-      "sha512": "owmu2Cr3IQ8yQiBleBHlGk8dSQ12oaF2e7TpzwJKEl4m84kkZJjEY1n33L67Y3zM5jPOjmmbdHjbfiL0RqcMRQ==",
+    "Microsoft.Bcl.AsyncInterfaces/9.0.2": {
+      "sha512": "1CED0BGD7dCKsbe7tDhzpPB2Qdi9x35QChu6zkBEI4s0T5bDkkttGReqQnOeOfRNSxtP2WvpX6Ik/0O93XDuMw==",
       "type": "package",
-      "path": "microsoft.bcl.asyncinterfaces/9.0.0",
+      "path": "microsoft.bcl.asyncinterfaces/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -352,7 +353,7 @@
         "lib/netstandard2.0/Microsoft.Bcl.AsyncInterfaces.xml",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll",
         "lib/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.xml",
-        "microsoft.bcl.asyncinterfaces.9.0.0.nupkg.sha512",
+        "microsoft.bcl.asyncinterfaces.9.0.2.nupkg.sha512",
         "microsoft.bcl.asyncinterfaces.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -726,10 +727,10 @@
         "version.txt"
       ]
     },
-    "System.IO.Pipelines/9.0.0": {
-      "sha512": "eA3cinogwaNB4jdjQHOP3Z3EuyiDII7MT35jgtnsA4vkn0LUrrSHsU0nzHTzFzmaFYeKV7MYyMxOocFzsBHpTw==",
+    "System.IO.Pipelines/9.0.2": {
+      "sha512": "UIBaK7c/A3FyQxmX/747xw4rCUkm1BhNiVU617U5jweNJssNjLJkPUGhBsrlDG0BpKWCYKsncD+Kqpy4KmvZZQ==",
       "type": "package",
-      "path": "system.io.pipelines/9.0.0",
+      "path": "system.io.pipelines/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -749,7 +750,7 @@
         "lib/net9.0/System.IO.Pipelines.xml",
         "lib/netstandard2.0/System.IO.Pipelines.dll",
         "lib/netstandard2.0/System.IO.Pipelines.xml",
-        "system.io.pipelines.9.0.0.nupkg.sha512",
+        "system.io.pipelines.9.0.2.nupkg.sha512",
         "system.io.pipelines.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -802,10 +803,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Encodings.Web/9.0.0": {
-      "sha512": "e2hMgAErLbKyUUwt18qSBf9T5Y+SFAL3ZedM8fLupkVj8Rj2PZ9oxQ37XX2LF8fTO1wNIxvKpihD7Of7D/NxZw==",
+    "System.Text.Encodings.Web/9.0.2": {
+      "sha512": "/kCGdrXg0PXrvkHYyHubXJHcmCAvJrxTZ7g4XS6UCxY1JW79aMjtUW6UYNECHJmiyFZsZ/vUuWOM4CtNpiNt8Q==",
       "type": "package",
-      "path": "system.text.encodings.web/9.0.0",
+      "path": "system.text.encodings.web/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -829,15 +830,15 @@
         "runtimes/browser/lib/net8.0/System.Text.Encodings.Web.xml",
         "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.dll",
         "runtimes/browser/lib/net9.0/System.Text.Encodings.Web.xml",
-        "system.text.encodings.web.9.0.0.nupkg.sha512",
+        "system.text.encodings.web.9.0.2.nupkg.sha512",
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Text.Json/9.0.0": {
-      "sha512": "js7+qAu/9mQvnhA4EfGMZNEzXtJCDxgkgj8ohuxq/Qxv+R56G+ljefhiJHOxTNiw54q8vmABCWUwkMulNdlZ4A==",
+    "System.Text.Json/9.0.2": {
+      "sha512": "4TY2Yokh5Xp8XHFhsY9y84yokS7B0rhkaZCXuRiKppIiKwPVH4lVSFD9EEFzRpXdBM5ZeZXD43tc2vB6njEwwQ==",
       "type": "package",
-      "path": "system.text.json/9.0.0",
+      "path": "system.text.json/9.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -900,7 +901,7 @@
         "lib/net9.0/System.Text.Json.xml",
         "lib/netstandard2.0/System.Text.Json.dll",
         "lib/netstandard2.0/System.Text.Json.xml",
-        "system.text.json.9.0.0.nupkg.sha512",
+        "system.text.json.9.0.2.nupkg.sha512",
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -925,10 +926,10 @@
         "system.threading.tasks.extensions.nuspec"
       ]
     },
-    "YoutubeExplode/6.5.1": {
-      "sha512": "Nsx1TDebFMY1lvSiZ6jNf2RHDVxoyej1vj2FOipLaqAvGRZjiNVYCa3JDpKMpCLldT6daHwK/BsQxpLP6PjbhQ==",
+    "YoutubeExplode/6.5.4": {
+      "sha512": "SWMvvvC/xEjkDEnQW28xeBXn0mgB7tsNtXvtcMpxYioyVuUWzsx94oWVQgUZIaT+Zbmvj03LaKIwK9mTGKMZQg==",
       "type": "package",
-      "path": "youtubeexplode/6.5.1",
+      "path": "youtubeexplode/6.5.4",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -937,36 +938,36 @@
         "lib/net9.0/YoutubeExplode.xml",
         "lib/netstandard2.0/YoutubeExplode.dll",
         "lib/netstandard2.0/YoutubeExplode.xml",
-        "youtubeexplode.6.5.1.nupkg.sha512",
+        "youtubeexplode.6.5.4.nupkg.sha512",
         "youtubeexplode.nuspec"
       ]
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "FFMpegCore >= 5.1.0",
+      "FFMpegCore >= 5.2.0",
       "Swashbuckle.AspNetCore >= 6.5.0",
-      "YoutubeExplode >= 6.5.1"
+      "YoutubeExplode >= 6.5.4"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Users\\vrkan\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\source\\repos\\youtube-converter\\youtube-converter\\youtube-converter.csproj",
+      "projectUniqueName": "C:\\Users\\vrkan\\Documents\\GitHub\\youtube-converter---Frontend\\youtube-converter - Backend\\youtube-converter\\youtube-converter.csproj",
       "projectName": "youtube-converter",
-      "projectPath": "C:\\Users\\User\\source\\repos\\youtube-converter\\youtube-converter\\youtube-converter.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\source\\repos\\youtube-converter\\youtube-converter\\obj\\",
+      "projectPath": "C:\\Users\\vrkan\\Documents\\GitHub\\youtube-converter---Frontend\\youtube-converter - Backend\\youtube-converter\\youtube-converter.csproj",
+      "packagesPath": "C:\\Users\\vrkan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\vrkan\\Documents\\GitHub\\youtube-converter---Frontend\\youtube-converter - Backend\\youtube-converter\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\vrkan\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -993,7 +994,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net6.0": {
@@ -1001,7 +1003,7 @@
         "dependencies": {
           "FFMpegCore": {
             "target": "Package",
-            "version": "[5.1.0, )"
+            "version": "[5.2.0, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",
@@ -1009,7 +1011,7 @@
           },
           "YoutubeExplode": {
             "target": "Package",
-            "version": "[6.5.1, )"
+            "version": "[6.5.4, )"
           }
         },
         "imports": [
@@ -1031,7 +1033,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

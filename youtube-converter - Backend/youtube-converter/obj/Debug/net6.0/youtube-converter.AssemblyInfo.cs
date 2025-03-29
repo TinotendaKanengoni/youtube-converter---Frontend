@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("youtube-converter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+20af3fde6110fe3a5e8d86ffb3270a2e357b6753")]
 [assembly: System.Reflection.AssemblyProductAttribute("youtube-converter")]
 [assembly: System.Reflection.AssemblyTitleAttribute("youtube-converter")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
